@@ -43,15 +43,46 @@ else{
 }
 
 // Question 5
-// To be solved
+
+let no1 = prompt("Enter number");
+let no2 = prompt("Enter number");
+let no3 = prompt("Enter number");
+
+if(no1 > no2){
+    if(no1 > no3){
+        alert(`${no1} is the biggest number`)
+    }
+    else if(no1 < no3){
+        alert(`${no3} is the biggest number`)
+    }
+}
+
+else if(no2 > no3){
+    if(no2 > no1){
+        alert(`${no2} is the biggest number`)
+    }
+    if(no2 < no1){
+        alert(`${no1} is the biggest number`)
+    }
+}
+
+else if(no2 > no1){
+    if(no2 > no3){
+        alert(`${no2} is the biggest number`)
+    }
+    if(no2 < no3){
+        alert(`${no3} is the biggest number`)
+    }
+}
+
 
 // Question 6
-let num1 = "63"
-let num2 = "43"
+let num1 = 63
+let num2 = 43
 
-if(num1[num1.length - 1] === num2[num2.length - 1]){
+if(num1 % 10 === num2 % 10){
     console.log("Last digits are same")
 }
 else{
-    console.log("Last Digits are not same")
+    console.log("Last digits are not same")
 }
