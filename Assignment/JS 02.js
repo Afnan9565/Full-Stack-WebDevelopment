@@ -12,3 +12,30 @@ let userName = prompt("Enter your Name");
 let userAge = prompt("Enter your age");
 let output = `${userName} is ${userAge} years old`;
 alert(output);
+
+// Question 3
+let quarter = 1;
+switch(quarter){
+    case 1:
+        console.log("January, February, March");
+        break;
+    case 2:
+        console.log("April, May, June");
+        break;
+    case 3:
+        console.log("July, August, September");
+        break;
+    case 4:
+        console.log("October, November, December");
+        break;
+}
+
+// Question 4
+// Golden String Problem
+let str = prompt("Enter string");
+if((str[0]==="a" || str[0]==="A") && str.length > 5){
+    alert("Golden String");
+}
+else{
+    alert("Not a Golden String");
+}
