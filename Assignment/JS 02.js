@@ -41,3 +41,17 @@ if((str[0]==="a" || str[0]==="A") && str.length > 5){
 else{
     alert("Not a Golden String");
 }
+
+// Question 5
+// To be solved
+
+// Question 6
+let num1 = "63"
+let num2 = "43"
+
+if(num1[num1.length - 1] === num2[num2.length - 1]){
+    console.log("Last digits are same")
+}
+else{
+    console.log("Last Digits are not same")
+}
