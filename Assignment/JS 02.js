@@ -28,6 +28,8 @@ switch(quarter){
     case 4:
         console.log("October, November, December");
         break;
+    default:
+        console.log("Invalid Quarter");
 }
 
 // Question 4
