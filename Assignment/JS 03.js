@@ -7,7 +7,7 @@ let newArr = arr.slice(0,n);
 // Question 2
 let n1 = 3;
     let arr1 =  [45,"apple",67,"mango"];
-let newArr1 = arr1. slice(arr1.length - n1 ,arr1.length);
+let newArr1 = arr1. slice(-n1);
         console.log(newArr1);
 
 //Question 3
