@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Movie Game</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            background: rgba(0,0,0,0.7);
+            padding: 2rem 3rem;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 1rem;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        p {
+            margin-bottom: 2rem;
+            font-size: 1.2rem;
+        }
+        .start-btn {
+            background: #ffb347;
+            color: #222;
+            border: none;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .start-btn:hover {
+            background: #ffcc80;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ TO - DO List</h1>
+        <p>
+            Welcome to the To Do list<br>
+            Enter "list" to show tasks
+            "delete" to Delete
+            "add" to add tasks 
+            "quit" to exit
+        </p>
+        <button class="start-btn" onclick="startTodo()">Start TODO</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
