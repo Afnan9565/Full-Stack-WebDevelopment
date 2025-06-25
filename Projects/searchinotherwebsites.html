@@ -1,37 +1,41 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+  <body>
+    <form action="https://www.youtube.com/results?">
+      <label for="youtube">Search in Youtube</label>
+      <input type="text" id="youtube" name="search_query" />
+      <button>Search</button>
+    </form>
+    <br />
+    <form action="https://www.google.com/search?">
+      <label for="google">Search in Google</label>
+      <input type="text" id="google" name="q" />
+      <button>Search</button>
+    </form>
+    <br />
+    <form action="https://www.quora.com/search?">
+      <label for="quora">Search in Quora</label>
+      <input type="text" id="quora" name="q" />
+      <button>Search</button>
+    </form>
+    <script src="script.js"></script>
 
-<body>
-  <form action="https://www.youtube.com/results?">
-    <label for="youtube">Search in Youtube</label>
-    <input type="text" id="youtube" name="search_query">
-    <button>Search</button>
-  </form><br>
-  <form action="https://www.google.com/search?">
-    <label for="google">Search in Google</label>
-    <input type="text" id="google" name="q">
-    <button>Search</button>
-  </form><br>
-  <form action="https://www.quora.com/search?">
-    <label for="quora">Search in Quora</label>
-    <input type="text" id="quora" name="q">
-    <button>Search</button>
-  </form>
-  <script src="script.js"></script>
-
-  <!--
+    <!--
   This script places a badge on your repl's full-browser view back to your repl's cover
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-</body>
-
+    <script
+      src="https://replit.com/public/js/replit-badge-v2.js"
+      theme="dark"
+      position="bottom-right"
+    ></script>
+  </body>
 </html>
