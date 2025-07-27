@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0rem;
+}
+h1 {
+  font-family: "Bitcount", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  color: rgb(25, 24, 102);
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "CRSV" 0.5, "ELSH" 0, "ELXP" 0;
+}
+body {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 0.6rem;
+  background: hsla(177, 87%, 79%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(177, 87%, 79%, 1) 0%,
+    hsla(235, 89%, 70%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(177, 87%, 79%, 1) 0%,
+    hsla(235, 89%, 70%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(177, 87%, 79%, 1) 0%,
+    hsla(235, 89%, 70%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BF8F4", endColorstr="#6F7BF7", GradientType=1 );
+  border: none;
+  font-weight: 600;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.color {
+  width: 80%;
+  margin: auto;
+  /* background-color: red; */
+  height: 5rem;
+  margin-top: 3rem;
+}
